@@ -1,9 +1,9 @@
 #![allow(stable_features)]
 
-mod client;
-mod error;
-mod server;
-mod stream;
+pub mod client;
+pub mod error;
+pub mod server;
+pub mod stream;
 
 pub use client::{
     TlsConnector, TlsStream as ClientTlsStream, TlsStreamReadHalf as ClientTlsStreamReadHalf,
